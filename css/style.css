@@ -1,0 +1,209 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "IRANSansWeb";
+    }
+    
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    ul {
+        list-style-type: none;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    img {
+        width: 100%;
+        height: 100%;
+    }
+    /* Header */
+    
+    .navbar {
+        width: 100%;
+        /* height: 10vh; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 0;
+        border-bottom: 1px solid #cccccc;
+    }
+    
+    .navbar .logo-container {
+        display: flex;
+        align-items: center;
+    }
+    
+    .logo-container img {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .logo-container section {
+        margin-right: 15px;
+    }
+    
+    .logo-container h4 {
+        color: #EB417B;
+        margin-bottom: 7px;
+    }
+    
+    .logo-container h6 {
+        color: #24b8dd;
+    }
+    
+    .navbar .list {
+        width: 70%;
+        display: flex;
+        list-style: none;
+    }
+    
+    .list li {
+        margin-right: 30px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    
+    .list li a {
+        color: #5d5959;
+        position: relative;
+    }
+    
+    .list li a.active {
+        color: #EB417B;
+    }
+    
+    .list li a.active::after {
+        content: "";
+        position: absolute;
+        bottom: -5px;
+        border-radius: 50%;
+        left: 50%;
+        width: 3px;
+        height: 3px;
+        background-color: #EB417B;
+    }
+    
+    .navbar .search {
+        width: 30px;
+        height: 30px;
+        background-color: #24b8dd;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        color: #fff;
+    }
+    /* Header */
+    /* Product */
+    
+    .product {
+        width: 100%;
+        padding: 30px 0;
+    }
+    
+    .product-content {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        height: 550px;
+    }
+    
+    .product-content .product-item {
+        width: 50%;
+        height: 100%;
+    }
+    
+    .product-item:nth-of-type(1) {
+        margin-left: 2%;
+    }
+    
+    .product-item .product-item-img {
+        height: 55%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .product-item-img:nth-of-type(1) {
+        margin-bottom: 5%;
+    }
+    
+    .product-item-img:nth-of-type(2) {
+        margin-top: 5%;
+    }
+    
+    .product-item-img .product-item-img-content {
+        width: 47.5%;
+    }
+    
+    .product-item-single-content,
+    .product-item-img-content {
+        position: relative;
+    }
+    
+    .product-item-single-content,
+    .product-item-img-content {
+        position: relative;
+    }
+    
+    .product-item-single-content h3,
+    .product-item-img-content h3 {
+        position: absolute;
+        top: 25px;
+        right: 25px;
+        color: #fff;
+        font-weight: 300;
+        /* word-spacing: 5px; */
+        font-size: 22px;
+    }
+    
+    .product-btn {
+        position: absolute;
+        padding: 10px 30px;
+        background-color: #fff;
+        color: #000;
+        outline: 0;
+        border: 0;
+        z-index: 1;
+        border-radius: 25px;
+        bottom: 40px;
+    }
+    
+    .product-item-img-content button {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .product-item-single-content button {
+        right: 30px;
+    }
+    /* Product */
+    /* AD */
+    
+    .ad {
+        width: 100%;
+        margin: 100px 0 50px;
+    }
+    
+    .ad-content {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .ad-content .ad-item {
+        width: 750px;
+        border-radius: 20px;
+        padding: 20px;
+    }
+    
+    .ad-item .ad-item-content {
+        border: 1px dashed #cccccc;
+        border-radius: 20px;
+        display: flex;
+    }
+    /* AD */
