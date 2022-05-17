@@ -5,9 +5,46 @@
         font-family: "IRANSansWeb";
     }
     
+    body {
+        background-color: antiquewhite;
+    }
+    
     .container {
         width: 80%;
         margin: 0 auto;
+    }
+    
+    .date-comment {
+        display: flex;
+    }
+    
+    .date-comment li {
+        display: flex;
+        align-items: center;
+        margin-left: 20px;
+    }
+    
+    .date-comment li:last-child {
+        margin-left: 0;
+    }
+    
+    .date-comment li span:last-child {
+        font-size: 12px;
+        color: #9c9e9e;
+        margin-right: 5px;
+    }
+    
+    .clock {
+        color: #24b8dd;
+    }
+    
+    .comment {
+        color: #EB417B;
+    }
+    
+    .date {
+        font-size: 12px;
+        color: #9c9e9e;
     }
     
     ul {
@@ -187,7 +224,7 @@
     
     .ad {
         width: 100%;
-        margin: 100px 0 50px;
+        margin: 50px 0;
     }
     
     .ad-content {
@@ -196,14 +233,174 @@
     }
     
     .ad-content .ad-item {
-        width: 750px;
-        border-radius: 20px;
-        padding: 20px;
-    }
-    
-    .ad-item .ad-item-content {
-        border: 1px dashed #cccccc;
-        border-radius: 20px;
-        display: flex;
+        width: 49%;
     }
     /* AD */
+    /* Doctors */
+    
+    .doctors {
+        width: 100%;
+        padding: 80px 0;
+    }
+    /* ///////////////////////////////////////// */
+    
+    .slider-title {
+        position: relative;
+        display: flex;
+        margin-bottom: 30px;
+    }
+    
+    .slider-title h2 {
+        font-size: 22px;
+        color: #24b8dd;
+        margin-right: 15px;
+        font-weight: 400;
+    }
+    
+    .slider-title .swiper-pagination {
+        bottom: 0;
+        width: fit-content;
+        left: 0;
+    }
+    /* ////////////////////////////////////////// */
+    
+    .doctors-content .slider-item {
+        position: relative;
+        background-color: #fff;
+        text-align: center;
+        padding: 50px 50px 70px 50px;
+        /* padding: 50px; */
+        border-radius: 25px;
+    }
+    
+    .slider-item h5 {
+        font-size: 14px;
+        margin: 10px 0 5px;
+        color: #35393a;
+    }
+    
+    .slider-item p {
+        font-size: 12px;
+    }
+    
+    .slider-item a {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        text-align: start;
+        color: #24b8dd;
+        font-size: 12px;
+    }
+    
+    .slider-item a svg {
+        margin-left: 7px;
+    }
+    /* Doctors */
+    /* Newslatter */
+    
+    .newslatter {
+        width: 100%;
+        padding: 50px 0;
+    }
+    
+    .newslatter .newslatter-content {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .newslatter-content .news-list {
+        width: 12%;
+    }
+    
+    .news-list li {
+        background-color: #fff;
+        border-radius: 25px;
+        text-align: center;
+        padding: 25px 10px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    
+    .news-list li.active {
+        background-color: #acd030;
+    }
+    
+    .news-list li.active p {
+        color: #fff;
+    }
+    
+    .news-list li:last-child {
+        margin-bottom: 0;
+    }
+    
+    .news-list li p {
+        color: #646d6f;
+        font-size: 13px;
+        margin-top: 15px;
+    }
+    
+    .newslatter-content .news {
+        width: 85%;
+        background-color: #fff;
+        border-radius: 25px;
+        /* height: 636px; */
+        padding: 25px;
+    }
+    
+    .news .news-header {
+        padding-bottom: 25px;
+        margin-bottom: 25px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #ebebeb;
+    }
+    
+    .news-header img {
+        width: 33.5%;
+    }
+    
+    .news-header .news-header-content {
+        width: 62.5%;
+    }
+    
+    .news-header-content h3 {
+        color: #35393a;
+        font-size: 18px;
+    }
+    
+    .news-header-content ul {
+        margin: 10px 0;
+    }
+    
+    .news-header-content P {
+        color: #646d6f;
+        font-size: 13px;
+    }
+    
+    .news-content .news-content-list {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: baseline;
+    }
+    
+    .news-content-list li {
+        width: 50%;
+        display: flex;
+        margin-bottom: 20px;
+        align-items: center;
+    }
+    
+    .news-content-list li section {
+        margin-right: 20px;
+        width: 70%;
+    }
+    
+    .news-content-list h5 {
+        color: #35393a;
+    }
+    
+    .news-content-list .date-comment li {
+        /* width: 100%; */
+    }
+    /* Newslatter */
