@@ -1,4 +1,4 @@
-// Doctors slider
+//  slider
 
 var swiper = new Swiper(".mySwiper", {
     slidesPerView: 4,
@@ -14,15 +14,24 @@ var swiper = new Swiper(".mySwiper", {
     },
 });
 
-
-var swiper = new Swiper(".my", {
-    slidesPerView: 3,
-    grid: {
-        rows: 2
-    },
+var swiper = new Swiper(".Swiper", {
+    slidesPerView: 2,
+    slidesPerColumn: 2,
     spaceBetween: 30,
+    slidesPerColumnFill: 'column',
+    loop: true,
+    autoplay: {
+        delay: 3500,
+        disableOnInteraction: false,
+    },
     pagination: {
-        el: ".swiper-pagination",
-        clickable: true
-    }
-});
+        el: '.swiper-pagination',
+    },
+})
+
+const searchBtn = document.querySelector(".search-btn");
+const searchInput = document.querySelector(".search-input");
+searchBtn.addEventListener('click', () => {
+    console.log(searchInput);
+    searchInput.classList.toggle("active");
+})

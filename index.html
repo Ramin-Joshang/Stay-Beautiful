@@ -5,15 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v30.1.0/dist/font-face.css" rel="stylesheet" type="text/css" /> -->
+    <title>Stay Beautiful</title>
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link href="//db.onlinewebfonts.com/c/5c53f1a72f61b5b51e2ea79a22ebc38b?family=IRANSansWeb(FaNum)" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body dir="rtl">
+
     <!-- Header section -->
     <header>
         <section class="container">
@@ -30,11 +30,14 @@
                     <li class="list-item"><a class="list-item-link" href="#">جراحی های زیبایی</a></li>
                     <li class="list-item"><a class="list-item-link" href="#">سلامت</a></li>
                     <li class="list-item"><a class="list-item-link" href="#">سبک زندگی</a></li>
-                    <li class="list-item"><a class="list-item-link" href="#">مد آرایشی</a></li>
+                    <li class="list-item"><a class="list-item-link" href="#">مد و آرایشی</a></li>
                     <li class="list-item"><a class="list-item-link" href="#">معرفی پزشکان</a></li>
                     <li class="list-item"><a class="list-item-link" href="#">اخبار</a></li>
                 </ul>
-                <section class="search"><span class="fas fa-search"></span></section>
+                <form class="search">
+                    <input dir="rtl" class="search-input" type="text" placeholder="جستجو در سایت ...">
+                    <button class="search-btn"><span class="fas fa-search"></span></button>
+                </form>
             </nav>
         </section>
     </header>
@@ -50,7 +53,7 @@
                             <section class="product-item-single-content">
                                 <img src="./images/1.png" alt="">
                                 <h3>نحوه آماده سازی پوست <br> برای لایه برداری</h3>
-                                <button class="product-btn">مشاهده</button>
+                                <a class="product-btn"><span>مشاهده</span></a>
                             </section>
                         </section>
                     </section>
@@ -58,12 +61,12 @@
                         <section class="product-item-img-content">
                             <img src="./images/4.png" alt="">
                             <h3>معرفی بهترین کرم های <br>لایه بردار پوست</h3>
-                            <button class="product-btn">مشاهده</button>
+                            <a class="product-btn"><span>مشاهده</span></a>
                         </section>
                         <section class="product-item-img-content">
                             <img src="./images/5.png" alt="">
                             <h3>معرفی محصولات آرایشی<br> برند SOON</h3>
-                            <button class="product-btn">مشاهده</button>
+                            <a class="product-btn"><span>مشاهده</span></a>
                         </section>
                     </section>
                 </section>
@@ -72,19 +75,19 @@
                         <section class="product-item-img-content">
                             <img src="./images/2.png" alt="">
                             <h3>معرفی بهترین کرم های<br> لایه بردار پوست</h3>
-                            <button class="product-btn">مشاهده</button>
+                            <a class="product-btn"><span>مشاهده</span></a>
                         </section>
                         <section class="product-item-img-content">
                             <img src="./images/3.png" alt="">
                             <h3>بهترین مرطوب کننده<br> برای پوست های خشک</h3>
-                            <button class="product-btn">مشاهده</button>
+                            <a class="product-btn"><span>مشاهده</span></a>
                         </section>
                     </section>
                     <section class="product-item-single">
                         <section class="product-item-single-content">
                             <img src="./images/6.png" alt="">
                             <h3>برترین برند های لوازم آرایشی<br> در سال 2020</h3>
-                            <button class="product-btn">مشاهده</button>
+                            <a class="product-btn"><span>مشاهده</span></a>
                         </section>
                     </section>
                 </section>
@@ -111,7 +114,7 @@
     <!-- Doctors & Clinic section -->
     <section class="doctors">
         <section class="container">
-            <section class="slider-title">
+            <section class="slider-blue-title">
                 <img style="width: 25px;" src="./images/doctors.png" alt="">
                 <h2>معرفی پزشکان و کلینیک ها</h2>
                 <div class="swiper-pagination"></div>
@@ -144,38 +147,6 @@
                                 <a href=""><span class="fas fa-map-marker-alt"></span>اصفهان</a>
                             </section>
                         </div>
-                        <!-- <div class="swiper-slide">
-                            <section class="slider-item">
-                                <img style="width: 65px;" src="./images/doctor-profile.png" alt="">
-                                <h5>دکتر پریسا مرتضوی مقدم</h5>
-                                <p>متخصص پوست و مو</p>
-                                <a href=""><span class="fas fa-map-marker-alt"></span>اصفهان</a>
-                            </section>
-                        </div> -->
-                        <!-- <div class="swiper-slide">
-                            <section class="slider-item">
-                                <img style="width: 65px;" src="./images/doctor-profile.png" alt="">
-                                <h5>دکتر پریسا مرتضوی مقدم</h5>
-                                <p>متخصص پوست و مو</p>
-                                <a href=""><span class="fas fa-map-marker-alt"></span>اصفهان</a>
-                            </section>
-                        </div>
-                        <div class="swiper-slide">
-                            <section class="slider-item">
-                                <img style="width: 65px;" src="./images/doctor-profile.png" alt="">
-                                <h5>دکتر پریسا مرتضوی مقدم</h5>
-                                <p>متخصص پوست و مو</p>
-                                <a href=""><span class="fas fa-map-marker-alt"></span>اصفهان</a>
-                            </section>
-                        </div> -->
-                        <!-- <div class="swiper-slide">
-                            <section class="slider-item">
-                                <img style="width: 65px;" src="./images/doctor-profile.png" alt="">
-                                <h5>دکتر پریسا مرتضوی مقدم</h5>
-                                <p>متخصص پوست و مو</p>
-                                <a href=""><span class="fas fa-map-marker-alt"></span>اصفهان</a>
-                            </section>
-                        </div>
                         <div class="swiper-slide">
                             <section class="slider-item">
                                 <img style="width: 65px;" src="./images/doctor-profile.png" alt="">
@@ -191,7 +162,7 @@
                                 <p>متخصص پوست و مو</p>
                                 <a href=""><span class="fas fa-map-marker-alt"></span>اصفهان</a>
                             </section>
-                        </div> -->
+                        </div>
                     </div>
                 </div>
 
@@ -362,23 +333,22 @@
     <!-- AD section -->
 
     <!-- View section -->
-    <!-- 
     <section class="view">
         <section class="container">
-            <section class="slider-title">
-                <img style="width: 25px;" src="./images/doctors.png" alt="">
+            <section class="slider-red-title">
+                <img style="width: 25px;" src="./images/view.png" alt="">
                 <h2>پربازدید ترین ها</h2>
                 <div class="swiper-pagination"></div>
             </section>
             <section class="view-content">
-                Swiper
-                <div class="swiper my">
+                <!-- Swiper -->
+                <div class="swiper Swiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <section class="news-header">
-                                <img src="./images/img.png" alt=" ">
-                                <section class="news-header-content">
-                                    <h3>کراتینه کردن مو چیست و چه مزایا و معایبی دارد</h3>
+                            <section class="view-item">
+                                <img src="./images/img2.png" style="width: 150px;" alt=" ">
+                                <section class="view-item-content">
+                                    <h3>جدیدترین مدل های لاک و ناخن 2020</h3>
                                     <ul class="date-comment">
                                         <li>
                                             <span class="far fa-clock clock"></span>
@@ -389,15 +359,32 @@
                                             <span>34 دیدگاه</span>
                                         </li>
                                     </ul>
-                                    <P>همه ی خانم هایی که دارای موهای وز و آسیب دیده هستند حتی شده برای یک بار به فکر کراتینه کردن مو های خود افتاده اند تا از شر مو های آسیب دیده خلاص شوند و هرچند وقت یک بار به طور موقت دارای موهایی براق و صاف شوند.</P>
+                                    <P>امروزه مدل ناخن برای خانم ها بسیار مهم است و هر کسی به دنبال داشتن زیباترینهاست.</P>
+                                </section>
+                            </section>
+                            <section class="view-item">
+                                <img src="./images/img2.png" style="width: 150px;" alt=" ">
+                                <section class="view-item-content">
+                                    <h3>جدیدترین مدل های لاک و ناخن 2020</h3>
+                                    <ul class="date-comment">
+                                        <li>
+                                            <span class="far fa-clock clock"></span>
+                                            <span>شنبه 6 اردیبهشت</span>
+                                        </li>
+                                        <li>
+                                            <span class="far fa-comment-alt comment"></span>
+                                            <span>34 دیدگاه</span>
+                                        </li>
+                                    </ul>
+                                    <P>امروزه مدل ناخن برای خانم ها بسیار مهم است و هر کسی به دنبال داشتن زیباترینهاست.</P>
                                 </section>
                             </section>
                         </div>
                         <div class="swiper-slide">
-                            <section class="news-header">
-                                <img src="./images/img.png" alt=" ">
-                                <section class="news-header-content">
-                                    <h3>کراتینه کردن مو چیست و چه مزایا و معایبی دارد </h3>
+                            <section class="view-item">
+                                <img src="./images/img2.png" style="width: 150px;" alt=" ">
+                                <section class="view-item-content">
+                                    <h3>جدیدترین مدل های لاک و ناخن 2020</h3>
                                     <ul class="date-comment">
                                         <li>
                                             <span class="far fa-clock clock"></span>
@@ -408,15 +395,32 @@
                                             <span>34 دیدگاه</span>
                                         </li>
                                     </ul>
-                                    <P>همه ی خانم هایی که دارای موهای وز و آسیب دیده هستند حتی شده برای یک بار به فکر کراتینه کردن مو های خود افتاده اند تا از شر مو های آسیب دیده خلاص شوند و هرچند وقت یک بار به طور موقت دارای موهایی براق و صاف شوند.</P>
+                                    <P>امروزه مدل ناخن برای خانم ها بسیار مهم است و هر کسی به دنبال داشتن زیباترینهاست.</P>
+                                </section>
+                            </section>
+                            <section class="view-item">
+                                <img src="./images/img2.png" style="width: 150px;" alt=" ">
+                                <section class="view-item-content">
+                                    <h3>جدیدترین مدل های لاک و ناخن 2020</h3>
+                                    <ul class="date-comment">
+                                        <li>
+                                            <span class="far fa-clock clock"></span>
+                                            <span>شنبه 6 اردیبهشت</span>
+                                        </li>
+                                        <li>
+                                            <span class="far fa-comment-alt comment"></span>
+                                            <span>34 دیدگاه</span>
+                                        </li>
+                                    </ul>
+                                    <P>امروزه مدل ناخن برای خانم ها بسیار مهم است و هر کسی به دنبال داشتن زیباترینهاست.</P>
                                 </section>
                             </section>
                         </div>
                         <div class="swiper-slide">
-                            <section class="news-header">
-                                <img src="./images/img.png" alt=" ">
-                                <section class="news-header-content">
-                                    <h3>کراتینه کردن مو چیست و چه مزایا و معایبی دارد </h3>
+                            <section class="view-item">
+                                <img src="./images/img2.png" style="width: 150px;" alt=" ">
+                                <section class="view-item-content">
+                                    <h3>جدیدترین مدل های لاک و ناخن 2020</h3>
                                     <ul class="date-comment">
                                         <li>
                                             <span class="far fa-clock clock"></span>
@@ -427,15 +431,32 @@
                                             <span>34 دیدگاه</span>
                                         </li>
                                     </ul>
-                                    <P>همه ی خانم هایی که دارای موهای وز و آسیب دیده هستند حتی شده برای یک بار به فکر کراتینه کردن مو های خود افتاده اند تا از شر مو های آسیب دیده خلاص شوند و هرچند وقت یک بار به طور موقت دارای موهایی براق و صاف شوند.</P>
+                                    <P>امروزه مدل ناخن برای خانم ها بسیار مهم است و هر کسی به دنبال داشتن زیباترینهاست.</P>
+                                </section>
+                            </section>
+                            <section class="view-item">
+                                <img src="./images/img2.png" style="width: 150px;" alt=" ">
+                                <section class="view-item-content">
+                                    <h3>جدیدترین مدل های لاک و ناخن 2020</h3>
+                                    <ul class="date-comment">
+                                        <li>
+                                            <span class="far fa-clock clock"></span>
+                                            <span>شنبه 6 اردیبهشت</span>
+                                        </li>
+                                        <li>
+                                            <span class="far fa-comment-alt comment"></span>
+                                            <span>34 دیدگاه</span>
+                                        </li>
+                                    </ul>
+                                    <P>امروزه مدل ناخن برای خانم ها بسیار مهم است و هر کسی به دنبال داشتن زیباترینهاست.</P>
                                 </section>
                             </section>
                         </div>
                         <div class="swiper-slide">
-                            <section class="news-header">
-                                <img src="./images/img.png" alt=" ">
-                                <section class="news-header-content">
-                                    <h3>کراتینه کردن مو چیست و چه مزایا و معایبی دارد </h3>
+                            <section class="view-item">
+                                <img src="./images/img2.png" style="width: 150px;" alt=" ">
+                                <section class="view-item-content">
+                                    <h3>جدیدترین مدل های لاک و ناخن 2020</h3>
                                     <ul class="date-comment">
                                         <li>
                                             <span class="far fa-clock clock"></span>
@@ -446,15 +467,32 @@
                                             <span>34 دیدگاه</span>
                                         </li>
                                     </ul>
-                                    <P>همه ی خانم هایی که دارای موهای وز و آسیب دیده هستند حتی شده برای یک بار به فکر کراتینه کردن مو های خود افتاده اند تا از شر مو های آسیب دیده خلاص شوند و هرچند وقت یک بار به طور موقت دارای موهایی براق و صاف شوند.</P>
+                                    <P>امروزه مدل ناخن برای خانم ها بسیار مهم است و هر کسی به دنبال داشتن زیباترینهاست.</P>
+                                </section>
+                            </section>
+                            <section class="view-item">
+                                <img src="./images/img2.png" style="width: 150px;" alt=" ">
+                                <section class="view-item-content">
+                                    <h3>جدیدترین مدل های لاک و ناخن 2020</h3>
+                                    <ul class="date-comment">
+                                        <li>
+                                            <span class="far fa-clock clock"></span>
+                                            <span>شنبه 6 اردیبهشت</span>
+                                        </li>
+                                        <li>
+                                            <span class="far fa-comment-alt comment"></span>
+                                            <span>34 دیدگاه</span>
+                                        </li>
+                                    </ul>
+                                    <P>امروزه مدل ناخن برای خانم ها بسیار مهم است و هر کسی به دنبال داشتن زیباترینهاست.</P>
                                 </section>
                             </section>
                         </div>
                         <div class="swiper-slide">
-                            <section class="news-header">
-                                <img src="./images/img.png" alt=" ">
-                                <section class="news-header-content">
-                                    <h3>کراتینه کردن مو چیست و چه مزایا و معایبی دارد </h3>
+                            <section class="view-item">
+                                <img src="./images/img2.png" style="width: 150px;" alt=" ">
+                                <section class="view-item-content">
+                                    <h3>جدیدترین مدل های لاک و ناخن 2020</h3>
                                     <ul class="date-comment">
                                         <li>
                                             <span class="far fa-clock clock"></span>
@@ -465,15 +503,13 @@
                                             <span>34 دیدگاه</span>
                                         </li>
                                     </ul>
-                                    <P>همه ی خانم هایی که دارای موهای وز و آسیب دیده هستند حتی شده برای یک بار به فکر کراتینه کردن مو های خود افتاده اند تا از شر مو های آسیب دیده خلاص شوند و هرچند وقت یک بار به طور موقت دارای موهایی براق و صاف شوند.</P>
+                                    <P>امروزه مدل ناخن برای خانم ها بسیار مهم است و هر کسی به دنبال داشتن زیباترینهاست.</P>
                                 </section>
                             </section>
-                        </div>
-                        <div class="swiper-slide">
-                            <section class="news-header">
-                                <img src="./images/img.png" alt=" ">
-                                <section class="news-header-content">
-                                    <h3>کراتینه کردن مو چیست و چه مزایا و معایبی دارد </h3>
+                            <section class="view-item">
+                                <img src="./images/img2.png" style="width: 150px;" alt=" ">
+                                <section class="view-item-content">
+                                    <h3>جدیدترین مدل های لاک و ناخن 2020</h3>
                                     <ul class="date-comment">
                                         <li>
                                             <span class="far fa-clock clock"></span>
@@ -484,80 +520,222 @@
                                             <span>34 دیدگاه</span>
                                         </li>
                                     </ul>
-                                    <P>همه ی خانم هایی که دارای موهای وز و آسیب دیده هستند حتی شده برای یک بار به فکر کراتینه کردن مو های خود افتاده اند تا از شر مو های آسیب دیده خلاص شوند و هرچند وقت یک بار به طور موقت دارای موهایی براق و صاف شوند.</P>
-                                </section>
-                            </section>
-                        </div>
-                        <div class="swiper-slide">
-                            <section class="news-header">
-                                <img src="./images/img.png" alt=" ">
-                                <section class="news-header-content">
-                                    <h3>کراتینه کردن مو چیست و چه مزایا و معایبی دارد </h3>
-                                    <ul class="date-comment">
-                                        <li>
-                                            <span class="far fa-clock clock"></span>
-                                            <span>شنبه 6 اردیبهشت</span>
-                                        </li>
-                                        <li>
-                                            <span class="far fa-comment-alt comment"></span>
-                                            <span>34 دیدگاه</span>
-                                        </li>
-                                    </ul>
-                                    <P>همه ی خانم هایی که دارای موهای وز و آسیب دیده هستند حتی شده برای یک بار به فکر کراتینه کردن مو های خود افتاده اند تا از شر مو های آسیب دیده خلاص شوند و هرچند وقت یک بار به طور موقت دارای موهایی براق و صاف شوند.</P>
-                                </section>
-                            </section>
-                        </div>
-                        <div class="swiper-slide">
-                            <section class="news-header">
-                                <img src="./images/img.png" alt=" ">
-                                <section class="news-header-content">
-                                    <h3>کراتینه کردن مو چیست و چه مزایا و معایبی دارد </h3>
-                                    <ul class="date-comment">
-                                        <li>
-                                            <span class="far fa-clock clock"></span>
-                                            <span>شنبه 6 اردیبهشت</span>
-                                        </li>
-                                        <li>
-                                            <span class="far fa-comment-alt comment"></span>
-                                            <span>34 دیدگاه</span>
-                                        </li>
-                                    </ul>
-                                    <P>همه ی خانم هایی که دارای موهای وز و آسیب دیده هستند حتی شده برای یک بار به فکر کراتینه کردن مو های خود افتاده اند تا از شر مو های آسیب دیده خلاص شوند و هرچند وقت یک بار به طور موقت دارای موهایی براق و صاف شوند.</P>
-                                </section>
-                            </section>
-                        </div>
-                        <div class="swiper-slide">
-                            <section class="news-header">
-                                <img src="./images/img.png" alt=" ">
-                                <section class="news-header-content">
-                                    <h3>کراتینه کردن مو چیست و چه مزایا و معایبی دارد </h3>
-                                    <ul class="date-comment">
-                                        <li>
-                                            <span class="far fa-clock clock"></span>
-                                            <span>شنبه 6 اردیبهشت</span>
-                                        </li>
-                                        <li>
-                                            <span class="far fa-comment-alt comment"></span>
-                                            <span>34 دیدگاه</span>
-                                        </li>
-                                    </ul>
-                                    <P>همه ی خانم هایی که دارای موهای وز و آسیب دیده هستند حتی شده برای یک بار به فکر کراتینه کردن مو های خود افتاده اند تا از شر مو های آسیب دیده خلاص شوند و هرچند وقت یک بار به طور موقت دارای موهایی براق و صاف شوند.</P>
+                                    <P>امروزه مدل ناخن برای خانم ها بسیار مهم است و هر کسی به دنبال داشتن زیباترینهاست.</P>
                                 </section>
                             </section>
                         </div>
                     </div>
+
                 </div>
             </section>
         </section>
-    </section> -->
-
+    </section>
     <!-- View section -->
 
+    <!-- News section -->
+    <section class="view">
+        <section class="container">
+            <section class="slider-blue-title">
+                <img style="width: 25px;" src="./images/recent.png" alt="">
+                <h2>آخرین اخبار</h2>
+                <div class="swiper-pagination"></div>
+            </section>
+            <section class="view-content">
+                <!-- Swiper -->
+                <div class="swiper Swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <section class="view-item">
+                                <img src="./images/img2.png" style="width: 150px;" alt=" ">
+                                <section class="view-item-content">
+                                    <h3>جدیدترین مدل های لاک و ناخن 2020</h3>
+                                    <ul class="date-comment">
+                                        <li>
+                                            <span class="far fa-clock clock"></span>
+                                            <span>شنبه 6 اردیبهشت</span>
+                                        </li>
+                                        <li>
+                                            <span class="far fa-comment-alt comment"></span>
+                                            <span>34 دیدگاه</span>
+                                        </li>
+                                    </ul>
+                                    <P>امروزه مدل ناخن برای خانم ها بسیار مهم است و هر کسی به دنبال داشتن زیباترینهاست.</P>
+                                </section>
+                            </section>
+                            <section class="view-item">
+                                <img src="./images/img2.png" style="width: 150px;" alt=" ">
+                                <section class="view-item-content">
+                                    <h3>جدیدترین مدل های لاک و ناخن 2020</h3>
+                                    <ul class="date-comment">
+                                        <li>
+                                            <span class="far fa-clock clock"></span>
+                                            <span>شنبه 6 اردیبهشت</span>
+                                        </li>
+                                        <li>
+                                            <span class="far fa-comment-alt comment"></span>
+                                            <span>34 دیدگاه</span>
+                                        </li>
+                                    </ul>
+                                    <P>امروزه مدل ناخن برای خانم ها بسیار مهم است و هر کسی به دنبال داشتن زیباترینهاست.</P>
+                                </section>
+                            </section>
+                        </div>
+                        <div class="swiper-slide">
+                            <section class="view-item">
+                                <img src="./images/img2.png" style="width: 150px;" alt=" ">
+                                <section class="view-item-content">
+                                    <h3>جدیدترین مدل های لاک و ناخن 2020</h3>
+                                    <ul class="date-comment">
+                                        <li>
+                                            <span class="far fa-clock clock"></span>
+                                            <span>شنبه 6 اردیبهشت</span>
+                                        </li>
+                                        <li>
+                                            <span class="far fa-comment-alt comment"></span>
+                                            <span>34 دیدگاه</span>
+                                        </li>
+                                    </ul>
+                                    <P>امروزه مدل ناخن برای خانم ها بسیار مهم است و هر کسی به دنبال داشتن زیباترینهاست.</P>
+                                </section>
+                            </section>
+                            <section class="view-item">
+                                <img src="./images/img2.png" style="width: 150px;" alt=" ">
+                                <section class="view-item-content">
+                                    <h3>جدیدترین مدل های لاک و ناخن 2020</h3>
+                                    <ul class="date-comment">
+                                        <li>
+                                            <span class="far fa-clock clock"></span>
+                                            <span>شنبه 6 اردیبهشت</span>
+                                        </li>
+                                        <li>
+                                            <span class="far fa-comment-alt comment"></span>
+                                            <span>34 دیدگاه</span>
+                                        </li>
+                                    </ul>
+                                    <P>امروزه مدل ناخن برای خانم ها بسیار مهم است و هر کسی به دنبال داشتن زیباترینهاست.</P>
+                                </section>
+                            </section>
+                        </div>
+                        <div class="swiper-slide">
+                            <section class="view-item">
+                                <img src="./images/img2.png" style="width: 150px;" alt=" ">
+                                <section class="view-item-content">
+                                    <h3>جدیدترین مدل های لاک و ناخن 2020</h3>
+                                    <ul class="date-comment">
+                                        <li>
+                                            <span class="far fa-clock clock"></span>
+                                            <span>شنبه 6 اردیبهشت</span>
+                                        </li>
+                                        <li>
+                                            <span class="far fa-comment-alt comment"></span>
+                                            <span>34 دیدگاه</span>
+                                        </li>
+                                    </ul>
+                                    <P>امروزه مدل ناخن برای خانم ها بسیار مهم است و هر کسی به دنبال داشتن زیباترینهاست.</P>
+                                </section>
+                            </section>
+                            <section class="view-item">
+                                <img src="./images/img2.png" style="width: 150px;" alt=" ">
+                                <section class="view-item-content">
+                                    <h3>جدیدترین مدل های لاک و ناخن 2020</h3>
+                                    <ul class="date-comment">
+                                        <li>
+                                            <span class="far fa-clock clock"></span>
+                                            <span>شنبه 6 اردیبهشت</span>
+                                        </li>
+                                        <li>
+                                            <span class="far fa-comment-alt comment"></span>
+                                            <span>34 دیدگاه</span>
+                                        </li>
+                                    </ul>
+                                    <P>امروزه مدل ناخن برای خانم ها بسیار مهم است و هر کسی به دنبال داشتن زیباترینهاست.</P>
+                                </section>
+                            </section>
+                        </div>
+                        <div class="swiper-slide">
+                            <section class="view-item">
+                                <img src="./images/img2.png" style="width: 150px;" alt=" ">
+                                <section class="view-item-content">
+                                    <h3>جدیدترین مدل های لاک و ناخن 2020</h3>
+                                    <ul class="date-comment">
+                                        <li>
+                                            <span class="far fa-clock clock"></span>
+                                            <span>شنبه 6 اردیبهشت</span>
+                                        </li>
+                                        <li>
+                                            <span class="far fa-comment-alt comment"></span>
+                                            <span>34 دیدگاه</span>
+                                        </li>
+                                    </ul>
+                                    <P>امروزه مدل ناخن برای خانم ها بسیار مهم است و هر کسی به دنبال داشتن زیباترینهاست.</P>
+                                </section>
+                            </section>
+                            <section class="view-item">
+                                <img src="./images/img2.png" style="width: 150px;" alt=" ">
+                                <section class="view-item-content">
+                                    <h3>جدیدترین مدل های لاک و ناخن 2020</h3>
+                                    <ul class="date-comment">
+                                        <li>
+                                            <span class="far fa-clock clock"></span>
+                                            <span>شنبه 6 اردیبهشت</span>
+                                        </li>
+                                        <li>
+                                            <span class="far fa-comment-alt comment"></span>
+                                            <span>34 دیدگاه</span>
+                                        </li>
+                                    </ul>
+                                    <P>امروزه مدل ناخن برای خانم ها بسیار مهم است و هر کسی به دنبال داشتن زیباترینهاست.</P>
+                                </section>
+                            </section>
+                        </div>
+                        <div class="swiper-slide">
+                            <section class="view-item">
+                                <img src="./images/img2.png" style="width: 150px;" alt=" ">
+                                <section class="view-item-content">
+                                    <h3>جدیدترین مدل های لاک و ناخن 2020</h3>
+                                    <ul class="date-comment">
+                                        <li>
+                                            <span class="far fa-clock clock"></span>
+                                            <span>شنبه 6 اردیبهشت</span>
+                                        </li>
+                                        <li>
+                                            <span class="far fa-comment-alt comment"></span>
+                                            <span>34 دیدگاه</span>
+                                        </li>
+                                    </ul>
+                                    <P>امروزه مدل ناخن برای خانم ها بسیار مهم است و هر کسی به دنبال داشتن زیباترینهاست.</P>
+                                </section>
+                            </section>
+                            <section class="view-item">
+                                <img src="./images/img2.png" style="width: 150px;" alt=" ">
+                                <section class="view-item-content">
+                                    <h3>جدیدترین مدل های لاک و ناخن 2020</h3>
+                                    <ul class="date-comment">
+                                        <li>
+                                            <span class="far fa-clock clock"></span>
+                                            <span>شنبه 6 اردیبهشت</span>
+                                        </li>
+                                        <li>
+                                            <span class="far fa-comment-alt comment"></span>
+                                            <span>34 دیدگاه</span>
+                                        </li>
+                                    </ul>
+                                    <P>امروزه مدل ناخن برای خانم ها بسیار مهم است و هر کسی به دنبال داشتن زیباترینهاست.</P>
+                                </section>
+                            </section>
+                        </div>
+                    </div>
 
-    <!-- View section -->
+                </div>
+            </section>
+        </section>
+    </section>
+    <!-- News section -->
+
+    <!-- Last video section -->
     <section class="last-video">
         <section class="container">
-            <section class="slider-title">
+            <section class="slider-red-title">
                 <img style="width: 25px;" src="./images/videos.png" alt="">
                 <h2>آخرین ویدئو ها</h2>
                 <div class="swiper-pagination"></div>
@@ -569,92 +747,165 @@
                         <div class="swiper-slide">
                             <section class="slider-item">
                                 <section class="slider-item-img">
-                                    <img style="width: 65px;" src="./images/v1.png" alt="">
+                                    <img src="./images/v1.png" alt="">
+                                    <section class="video-play">
+                                        <span class="fas fa-play"></span>
+                                    </section>
                                 </section>
                                 <section class="slider-item-content">
                                     <h5>آموزش هاشور به روش میکرو بلیدینگ</h5>
-                                    <a href=""><span class="fas fa-map-marker-alt"></span>768 بازدید</a>
+                                    <a href=""><span class="fas fa-eye"></span>768 بازدید</a>
                                 </section>
                             </section>
                         </div>
                         <div class="swiper-slide">
                             <section class="slider-item">
                                 <section class="slider-item-img">
-                                    <img style="width: 65px;" src="./images/v1.png" alt="">
+                                    <img src="./images/v1.png" alt="">
+                                    <section class="video-play">
+                                        <span class="fas fa-play"></span>
+                                    </section>
                                 </section>
                                 <section class="slider-item-content">
                                     <h5>آموزش هاشور به روش میکرو بلیدینگ</h5>
-                                    <a href=""><span class="fas fa-map-marker-alt"></span>768 بازدید</a>
+                                    <a href=""><span class="fas fa-eye"></span>768 بازدید</a>
                                 </section>
                             </section>
                         </div>
                         <div class="swiper-slide">
                             <section class="slider-item">
                                 <section class="slider-item-img">
-                                    <img style="width: 65px;" src="./images/v1.png" alt="">
+                                    <img src="./images/v1.png" alt="">
+                                    <section class="video-play">
+                                        <span class="fas fa-play"></span>
+                                    </section>
                                 </section>
                                 <section class="slider-item-content">
                                     <h5>آموزش هاشور به روش میکرو بلیدینگ</h5>
-                                    <a href=""><span class="fas fa-map-marker-alt"></span>768 بازدید</a>
+                                    <a href=""><span class="fas fa-eye"></span>768 بازدید</a>
                                 </section>
                             </section>
                         </div>
-                        <!-- <div class="swiper-slide">
-                                <section class="slider-item">
-                                    <img style="width: 65px;" src="./images/doctor-profile.png" alt="">
-                                    <h5>دکتر پریسا مرتضوی مقدم</h5>
-                                    <p>متخصص پوست و مو</p>
-                                    <a href=""><span class="fas fa-map-marker-alt"></span>اصفهان</a>
+                        <div class="swiper-slide">
+                            <section class="slider-item">
+                                <section class="slider-item-img">
+                                    <img src="./images/v1.png" alt="">
+                                    <section class="video-play">
+                                        <span class="fas fa-play"></span>
+                                    </section>
                                 </section>
-                            </div> -->
-                        <!-- <div class="swiper-slide">
-                                <section class="slider-item">
-                                    <img style="width: 65px;" src="./images/doctor-profile.png" alt="">
-                                    <h5>دکتر پریسا مرتضوی مقدم</h5>
-                                    <p>متخصص پوست و مو</p>
-                                    <a href=""><span class="fas fa-map-marker-alt"></span>اصفهان</a>
+                                <section class="slider-item-content">
+                                    <h5>آموزش هاشور به روش میکرو بلیدینگ</h5>
+                                    <a href=""><span class="fas fa-eye"></span>768 بازدید</a>
                                 </section>
-                            </div>
-                            <div class="swiper-slide">
-                                <section class="slider-item">
-                                    <img style="width: 65px;" src="./images/doctor-profile.png" alt="">
-                                    <h5>دکتر پریسا مرتضوی مقدم</h5>
-                                    <p>متخصص پوست و مو</p>
-                                    <a href=""><span class="fas fa-map-marker-alt"></span>اصفهان</a>
+                            </section>
+                        </div>
+                        <div class="swiper-slide">
+                            <section class="slider-item">
+                                <section class="slider-item-img">
+                                    <img src="./images/v1.png" alt="">
+                                    <section class="video-play">
+                                        <span class="fas fa-play"></span>
+                                    </section>
                                 </section>
-                            </div> -->
-                        <!-- <div class="swiper-slide">
-                                <section class="slider-item">
-                                    <img style="width: 65px;" src="./images/doctor-profile.png" alt="">
-                                    <h5>دکتر پریسا مرتضوی مقدم</h5>
-                                    <p>متخصص پوست و مو</p>
-                                    <a href=""><span class="fas fa-map-marker-alt"></span>اصفهان</a>
+                                <section class="slider-item-content">
+                                    <h5>آموزش هاشور به روش میکرو بلیدینگ</h5>
+                                    <a href=""><span class="fas fa-eye"></span>768 بازدید</a>
                                 </section>
-                            </div>
-                            <div class="swiper-slide">
-                                <section class="slider-item">
-                                    <img style="width: 65px;" src="./images/doctor-profile.png" alt="">
-                                    <h5>دکتر پریسا مرتضوی مقدم</h5>
-                                    <p>متخصص پوست و مو</p>
-                                    <a href=""><span class="fas fa-map-marker-alt"></span>اصفهان</a>
-                                </section>
-                            </div>
-                            <div class="swiper-slide">
-                                <section class="slider-item">
-                                    <img style="width: 65px;" src="./images/doctor-profile.png" alt="">
-                                    <h5>دکتر پریسا مرتضوی مقدم</h5>
-                                    <p>متخصص پوست و مو</p>
-                                    <a href=""><span class="fas fa-map-marker-alt"></span>اصفهان</a>
-                                </section>
-                            </div> -->
+                            </section>
+                        </div>
                     </div>
                 </div>
 
             </section>
         </section>
     </section>
+    <!-- Last video section -->
 
-    <!-- View section -->
+    <!-- AD section -->
+    <section class="ad">
+        <section class="container">
+            <section class="ad-content">
+                <section class="ad-item">
+                    <img src="./images/ad-logo.png" alt="ad" />
+                </section>
+                <section class="ad-item">
+                    <img src="./images/ad-logo.png" alt="ad" />
+                </section>
+            </section>
+        </section>
+    </section>
+    <!-- AD section -->
+
+    <!-- Footer section -->
+    <footer class="footer">
+        <section class="container">
+            <section class="footer-content">
+                <section class="right">
+                    <section class="footer-logo">
+                        <img src="./images/footer-logo.svg" alt="">
+                        <section>
+                            <h4>زیبابمان</h4>
+                            <h6>مجله اینترنتی زیبایی و سلامتی</h6>
+                        </section>
+                    </section>
+                    <p>مجله زیبایی و سلامت "زیبا بمان" با هدف تولید محتوا در حوزه جراحی های زیبایی و آرایشی و سلامت و بالا بردن سطح اطلاعات و دانش مخاطبان در این حوزه آغاز به کار نموده است . زیبا شوید ، زیبا بمانید و زیبا بیندیشید. افزایش زیبایی به اعتماد
+                        به نفس شما نیز میفزاید. محتوای درج شده در این سامانه، متناسب با قوانین جمهوری اسلامی ایران می باشد.</p>
+                </section>
+                <section class="center">
+                    <section class="center-content">
+                        <section class="red">
+                            <span class="fab fa-instagram"></span>
+                        </section>
+                        <section class="logo">
+                            <img src="./images/Enamad.png" alt="">
+                        </section>
+                    </section>
+                </section>
+                <section class="left">
+                    <h4 class="left-content"> <span class="fas fa-link"></span> آخرین مطالب</h4>
+                    <ul>
+                        <li>
+                            <span class="fas fa-angle-double-left"></span>
+                            <a href="">همه چیز درباره عمل طبیعی بینی گوشتی</a>
+                        </li>
+                        <li>
+                            <span class="fas fa-angle-double-left"></span>
+                            <a href="">التهاب لثه را بشناسید ، گزینه های درمان خانگی و پزشکی</a>
+                        </li>
+                        <li>
+                            <span class="fas fa-angle-double-left"></span>
+                            <a href="">مزووایت چیست ؟ مزایا و عوارض و ماندگاری آن</a>
+                        </li>
+                        <li>
+                            <span class="fas fa-angle-double-left"></span>
+                            <a href="">قوی ترین ماسک ضد چروک صورت را امتحان کنید</a>
+                        </li>
+                        <li>
+                            <span class="fas fa-angle-double-left"></span>
+                            <a href="">درباره اختلال دو قطبی چه چیزهایی باید بدانید</a>
+                        </li>
+                    </ul>
+                </section>
+                <img class="butterfly" src="./images/Layer 2.png" alt="">
+            </section>
+            <section class="copyright">
+                <ul>
+                    <li>صفحه اصلی</li>
+                    <li>/</li>
+                    <li>جراحی های زیبایی</li>
+                    <li>/</li>
+                    <li> سلامت</li>
+                    <li>/</li>
+                    <li>ماسک های زیبایی</li>
+                    <li>/</li>
+                    <li>مد و آرایشی</li>
+                </ul>
+                <p>تمامی حقوق برای وب سایت زیبا بمان محفوظ است</p>
+            </section>
+        </section>
+    </footer>
+    <!-- Footer section -->
 
 </body>
 <!-- Swiper JS -->
