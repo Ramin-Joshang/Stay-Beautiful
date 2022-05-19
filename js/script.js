@@ -31,7 +31,30 @@ var swiper = new Swiper(".Swiper", {
 
 const searchBtn = document.querySelector(".search-btn");
 const searchInput = document.querySelector(".search-input");
+
 searchBtn.addEventListener('click', () => {
-    console.log(searchInput);
     searchInput.classList.toggle("active");
 })
+
+const list = document.querySelector(".news-list");
+const listItem = list.querySelectorAll("li");
+listItem.forEach(element => {
+    element.onclick = e => {
+        for (let i = 0; i < listItem.length; i++) {
+            const element = listItem[i];
+            element.classList.remove("active");
+        }
+        e.target.classList.add("active")
+    }
+});
+
+
+// for (let i = 0; i < list.length; i++) {
+//     const element = list[i];
+//     console.log(element);
+//     element.classList.remove("active")
+//     element.addEventListener("click", e => {
+//         e.target.classList.add("active")
+//     })
+// }
+// console.log(list);

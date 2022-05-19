@@ -8,7 +8,8 @@
     <title>Stay Beautiful</title>
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-    <link href="//db.onlinewebfonts.com/c/5c53f1a72f61b5b51e2ea79a22ebc38b?family=IRANSansWeb(FaNum)" rel="stylesheet" type="text/css" />
+    <link href="//db.onlinewebfonts.com/c/5c53f1a72f61b5b51e2ea79a22ebc38b?family=IRANSansWeb(FaNum)" rel="stylesheet"
+        type="text/css" />
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -36,7 +37,7 @@
                 </ul>
                 <form class="search">
                     <input dir="rtl" class="search-input" type="text" placeholder="جستجو در سایت ...">
-                    <button class="search-btn"><span class="fas fa-search"></span></button>
+                    <button type="button" class="search-btn"><span class="fas fa-search"></span></button>
                 </form>
             </nav>
         </section>
@@ -49,7 +50,7 @@
             <section class="product-content">
                 <section class="product-item">
                     <section class="product-item-single">
-                        <section class="product-item-single-content">
+                        <section class="product-item-single">
                             <section class="product-item-single-content">
                                 <img src="./images/1.png" alt="">
                                 <h3>نحوه آماده سازی پوست <br> برای لایه برداری</h3>
@@ -126,41 +127,51 @@
                         <div class="swiper-slide">
                             <section class="slider-item">
                                 <img style="width: 65px;" src="./images/doctor-profile.png" alt="">
-                                <h5>دکتر پریسا مرتضوی مقدم</h5>
+                                <a class="dr-name" href="">
+                                    <h5>دکتر پریسا مرتضوی مقدم</h5>
+                                </a>
                                 <p>متخصص پوست و مو</p>
-                                <a href=""><span class="fas fa-map-marker-alt"></span>اصفهان</a>
+                                <a class="place" href=""><span class="fas fa-map-marker-alt"></span>اصفهان</a>
                             </section>
                         </div>
                         <div class="swiper-slide">
                             <section class="slider-item">
                                 <img style="width: 65px;" src="./images/doctor-profile.png" alt="">
-                                <h5>دکتر پریسا مرتضوی مقدم</h5>
+                                <a class="dr-name" href="">
+                                    <h5>دکتر پریسا مرتضوی مقدم</h5>
+                                </a>
                                 <p>متخصص پوست و مو</p>
-                                <a href=""><span class="fas fa-map-marker-alt"></span>اصفهان</a>
+                                <a class="place" href=""><span class="fas fa-map-marker-alt"></span>اصفهان</a>
                             </section>
                         </div>
                         <div class="swiper-slide">
                             <section class="slider-item">
                                 <img style="width: 65px;" src="./images/doctor-profile.png" alt="">
-                                <h5>دکتر پریسا مرتضوی مقدم</h5>
+                                <a class="dr-name" href="">
+                                    <h5>دکتر پریسا مرتضوی مقدم</h5>
+                                </a>
                                 <p>متخصص پوست و مو</p>
-                                <a href=""><span class="fas fa-map-marker-alt"></span>اصفهان</a>
+                                <a class="place" href=""><span class="fas fa-map-marker-alt"></span>اصفهان</a>
                             </section>
                         </div>
                         <div class="swiper-slide">
                             <section class="slider-item">
                                 <img style="width: 65px;" src="./images/doctor-profile.png" alt="">
-                                <h5>دکتر پریسا مرتضوی مقدم</h5>
+                                <a class="dr-name" href="">
+                                    <h5>دکتر پریسا مرتضوی مقدم</h5>
+                                </a>
                                 <p>متخصص پوست و مو</p>
-                                <a href=""><span class="fas fa-map-marker-alt"></span>اصفهان</a>
+                                <a class="place" href=""><span class="fas fa-map-marker-alt"></span>اصفهان</a>
                             </section>
                         </div>
                         <div class="swiper-slide">
                             <section class="slider-item">
                                 <img style="width: 65px;" src="./images/doctor-profile.png" alt="">
-                                <h5>دکتر پریسا مرتضوی مقدم</h5>
+                                <a class="dr-name" href="">
+                                    <h5>دکتر پریسا مرتضوی مقدم</h5>
+                                </a>
                                 <p>متخصص پوست و مو</p>
-                                <a href=""><span class="fas fa-map-marker-alt"></span>اصفهان</a>
+                                <a class="place" href=""><span class="fas fa-map-marker-alt"></span>اصفهان</a>
                             </section>
                         </div>
                     </div>
@@ -177,7 +188,7 @@
             <section class="newslatter-content">
                 <ul class="news-list">
                     <li>
-                        <img style="width: 40px;height:40px" src="./images/surgery.png" alt="">
+                        <img style="width: 40px;height:40px" src="./images/surgery.svg" alt="">
                         <p>جراحی های زیبایی</p>
                     </li>
                     <li>
@@ -185,7 +196,7 @@
                         <p>پزشکی و سلامتی</p>
                     </li>
                     <li class="active">
-                        <img style="width: 40px;height:40px" src="./images/life-style.png" alt="">
+                        <img style="width: 40px;height:40px" src="./images/surgery.svg" alt="">
                         <p>سبک زندگی</p>
                     </li>
                     <li>
@@ -197,7 +208,9 @@
                     <section class="news-header">
                         <img src="./images/img.png" alt=" ">
                         <section class="news-header-content">
-                            <h3>کراتینه کردن مو چیست و چه مزایا و معایبی دارد </h3>
+                            <a href="">
+                                <h3>کراتینه کردن مو چیست و چه مزایا و معایبی دارد </h3>
+                            </a>
                             <ul class="date-comment">
                                 <li>
                                     <span class="far fa-clock clock"></span>
@@ -208,7 +221,9 @@
                                     <span>34 دیدگاه</span>
                                 </li>
                             </ul>
-                            <P>همه ی خانم هایی که دارای موهای وز و آسیب دیده هستند حتی شده برای یک بار به فکر کراتینه کردن مو های خود افتاده اند تا از شر مو های آسیب دیده خلاص شوند و هرچند وقت یک بار به طور موقت دارای موهایی براق و صاف شوند.</P>
+                            <P>همه ی خانم هایی که دارای موهای وز و آسیب دیده هستند حتی شده برای یک بار به فکر کراتینه
+                                کردن مو های خود افتاده اند تا از شر مو های آسیب دیده خلاص شوند و هرچند وقت یک بار به طور
+                                موقت دارای موهایی براق و صاف شوند.</P>
                         </section>
                     </section>
                     <section class="news-content">
@@ -216,7 +231,9 @@
                             <li>
                                 <img style="width: 70px;" src="./images/news-content.png" alt="">
                                 <section>
-                                    <h5>مجموعه مدل نیم بوت دخترانه بدون پاشنه </h5>
+                                    <a href="">
+                                        <h5>مجموعه مدل نیم بوت دخترانه بدون پاشنه </h5>
+                                    </a>
                                     <ul class="date-comment">
                                         <li>
                                             <span class="far fa-clock clock"></span>
@@ -232,7 +249,9 @@
                             <li>
                                 <img style="width: 70px;" src="./images/news-content.png" alt="">
                                 <section>
-                                    <h5>چگونه استرس خود را مدیریت کنیم؟</h5>
+                                    <a href="">
+                                        <h5>چگونه استرس خود را مدیریت کنیم؟</h5>
+                                    </a>
                                     <ul class="date-comment">
                                         <li>
                                             <span class="far fa-clock clock"></span>
@@ -248,7 +267,9 @@
                             <li>
                                 <img style="width: 70px;" src="./images/news-content.png" alt="">
                                 <section>
-                                    <h5>رنگ رژ لب مناسب زمستان برای هرنوع پوست</h5>
+                                    <a href="">
+                                        <h5>رنگ رژ لب مناسب زمستان برای هرنوع پوست</h5>
+                                    </a>
                                     <ul class="date-comment">
                                         <li>
                                             <span class="far fa-clock clock"></span>
@@ -264,7 +285,9 @@
                             <li>
                                 <img style="width: 70px;" src="./images/news-content.png" alt="">
                                 <section>
-                                    <h5>راه های جلوگیری از ایجاد جوش روی صورت </h5>
+                                    <a href="">
+                                        <h5>راه های جلوگیری از ایجاد جوش روی صورت </h5>
+                                    </a>
                                     <ul class="date-comment">
                                         <li>
                                             <span class="far fa-clock clock"></span>
@@ -280,7 +303,9 @@
                             <li>
                                 <img style="width: 70px;" src="./images/news-content.png" alt="">
                                 <section>
-                                    <h5>عوراض کاشت ناخن مصنوعی در دوران بارداری</h5>
+                                    <a href="">
+                                        <h5>عوراض کاشت ناخن مصنوعی در دوران بارداری</h5>
+                                    </a>
                                     <ul class="date-comment">
                                         <li>
                                             <span class="far fa-clock clock"></span>
@@ -296,7 +321,9 @@
                             <li>
                                 <img style="width: 70px;" src="./images/news-content.png" alt="">
                                 <section>
-                                    <h5>معرفی انواع کرم ضد لک عالی و قیمت مناسب</h5>
+                                    <a href="">
+                                        <h5>معرفی انواع کرم ضد لک عالی و قیمت مناسب</h5>
+                                    </a>
                                     <ul class="date-comment">
                                         <li>
                                             <span class="far fa-clock clock"></span>
@@ -332,23 +359,25 @@
     </section>
     <!-- AD section -->
 
-    <!-- View section -->
-    <section class="view">
+    <!-- Monst Visited section -->
+    <section class="most-visited">
         <section class="container">
             <section class="slider-red-title">
                 <img style="width: 25px;" src="./images/view.png" alt="">
                 <h2>پربازدید ترین ها</h2>
                 <div class="swiper-pagination"></div>
             </section>
-            <section class="view-content">
+            <section class="most-visited-content">
                 <!-- Swiper -->
                 <div class="swiper Swiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <section class="view-item">
+                            <section class="most-visited-item">
                                 <img src="./images/img2.png" style="width: 150px;" alt=" ">
-                                <section class="view-item-content">
-                                    <h3>جدیدترین مدل های لاک و ناخن 2020</h3>
+                                <section class="most-visited-item-content">
+                                    <a href="">
+                                        <h3>جدیدترین مدل های لاک و ناخن 2020</h3>
+                                    </a>
                                     <ul class="date-comment">
                                         <li>
                                             <span class="far fa-clock clock"></span>
@@ -359,13 +388,16 @@
                                             <span>34 دیدگاه</span>
                                         </li>
                                     </ul>
-                                    <P>امروزه مدل ناخن برای خانم ها بسیار مهم است و هر کسی به دنبال داشتن زیباترینهاست.</P>
+                                    <P>امروزه مدل ناخن برای خانم ها بسیار مهم است و هر کسی به دنبال داشتن زیباترینهاست.
+                                    </P>
                                 </section>
                             </section>
-                            <section class="view-item">
+                            <section class="most-visited-item">
                                 <img src="./images/img2.png" style="width: 150px;" alt=" ">
-                                <section class="view-item-content">
-                                    <h3>جدیدترین مدل های لاک و ناخن 2020</h3>
+                                <section class="most-visited-item-content">
+                                    <a href="">
+                                        <h3>جدیدترین مدل های لاک و ناخن 2020</h3>
+                                    </a>
                                     <ul class="date-comment">
                                         <li>
                                             <span class="far fa-clock clock"></span>
@@ -376,51 +408,18 @@
                                             <span>34 دیدگاه</span>
                                         </li>
                                     </ul>
-                                    <P>امروزه مدل ناخن برای خانم ها بسیار مهم است و هر کسی به دنبال داشتن زیباترینهاست.</P>
-                                </section>
-                            </section>
-                        </div>
-                        <div class="swiper-slide">
-                            <section class="view-item">
-                                <img src="./images/img2.png" style="width: 150px;" alt=" ">
-                                <section class="view-item-content">
-                                    <h3>جدیدترین مدل های لاک و ناخن 2020</h3>
-                                    <ul class="date-comment">
-                                        <li>
-                                            <span class="far fa-clock clock"></span>
-                                            <span>شنبه 6 اردیبهشت</span>
-                                        </li>
-                                        <li>
-                                            <span class="far fa-comment-alt comment"></span>
-                                            <span>34 دیدگاه</span>
-                                        </li>
-                                    </ul>
-                                    <P>امروزه مدل ناخن برای خانم ها بسیار مهم است و هر کسی به دنبال داشتن زیباترینهاست.</P>
-                                </section>
-                            </section>
-                            <section class="view-item">
-                                <img src="./images/img2.png" style="width: 150px;" alt=" ">
-                                <section class="view-item-content">
-                                    <h3>جدیدترین مدل های لاک و ناخن 2020</h3>
-                                    <ul class="date-comment">
-                                        <li>
-                                            <span class="far fa-clock clock"></span>
-                                            <span>شنبه 6 اردیبهشت</span>
-                                        </li>
-                                        <li>
-                                            <span class="far fa-comment-alt comment"></span>
-                                            <span>34 دیدگاه</span>
-                                        </li>
-                                    </ul>
-                                    <P>امروزه مدل ناخن برای خانم ها بسیار مهم است و هر کسی به دنبال داشتن زیباترینهاست.</P>
+                                    <P>امروزه مدل ناخن برای خانم ها بسیار مهم است و هر کسی به دنبال داشتن زیباترینهاست.
+                                    </P>
                                 </section>
                             </section>
                         </div>
                         <div class="swiper-slide">
-                            <section class="view-item">
+                            <section class="most-visited-item">
                                 <img src="./images/img2.png" style="width: 150px;" alt=" ">
-                                <section class="view-item-content">
-                                    <h3>جدیدترین مدل های لاک و ناخن 2020</h3>
+                                <section class="most-visited-item-content">
+                                    <a href="">
+                                        <h3>جدیدترین مدل های لاک و ناخن 2020</h3>
+                                    </a>
                                     <ul class="date-comment">
                                         <li>
                                             <span class="far fa-clock clock"></span>
@@ -431,13 +430,16 @@
                                             <span>34 دیدگاه</span>
                                         </li>
                                     </ul>
-                                    <P>امروزه مدل ناخن برای خانم ها بسیار مهم است و هر کسی به دنبال داشتن زیباترینهاست.</P>
+                                    <P>امروزه مدل ناخن برای خانم ها بسیار مهم است و هر کسی به دنبال داشتن زیباترینهاست.
+                                    </P>
                                 </section>
                             </section>
-                            <section class="view-item">
+                            <section class="most-visited-item">
                                 <img src="./images/img2.png" style="width: 150px;" alt=" ">
-                                <section class="view-item-content">
-                                    <h3>جدیدترین مدل های لاک و ناخن 2020</h3>
+                                <section class="most-visited-item-content">
+                                    <a href="">
+                                        <h3>جدیدترین مدل های لاک و ناخن 2020</h3>
+                                    </a>
                                     <ul class="date-comment">
                                         <li>
                                             <span class="far fa-clock clock"></span>
@@ -448,51 +450,18 @@
                                             <span>34 دیدگاه</span>
                                         </li>
                                     </ul>
-                                    <P>امروزه مدل ناخن برای خانم ها بسیار مهم است و هر کسی به دنبال داشتن زیباترینهاست.</P>
-                                </section>
-                            </section>
-                        </div>
-                        <div class="swiper-slide">
-                            <section class="view-item">
-                                <img src="./images/img2.png" style="width: 150px;" alt=" ">
-                                <section class="view-item-content">
-                                    <h3>جدیدترین مدل های لاک و ناخن 2020</h3>
-                                    <ul class="date-comment">
-                                        <li>
-                                            <span class="far fa-clock clock"></span>
-                                            <span>شنبه 6 اردیبهشت</span>
-                                        </li>
-                                        <li>
-                                            <span class="far fa-comment-alt comment"></span>
-                                            <span>34 دیدگاه</span>
-                                        </li>
-                                    </ul>
-                                    <P>امروزه مدل ناخن برای خانم ها بسیار مهم است و هر کسی به دنبال داشتن زیباترینهاست.</P>
-                                </section>
-                            </section>
-                            <section class="view-item">
-                                <img src="./images/img2.png" style="width: 150px;" alt=" ">
-                                <section class="view-item-content">
-                                    <h3>جدیدترین مدل های لاک و ناخن 2020</h3>
-                                    <ul class="date-comment">
-                                        <li>
-                                            <span class="far fa-clock clock"></span>
-                                            <span>شنبه 6 اردیبهشت</span>
-                                        </li>
-                                        <li>
-                                            <span class="far fa-comment-alt comment"></span>
-                                            <span>34 دیدگاه</span>
-                                        </li>
-                                    </ul>
-                                    <P>امروزه مدل ناخن برای خانم ها بسیار مهم است و هر کسی به دنبال داشتن زیباترینهاست.</P>
+                                    <P>امروزه مدل ناخن برای خانم ها بسیار مهم است و هر کسی به دنبال داشتن زیباترینهاست.
+                                    </P>
                                 </section>
                             </section>
                         </div>
                         <div class="swiper-slide">
-                            <section class="view-item">
+                            <section class="most-visited-item">
                                 <img src="./images/img2.png" style="width: 150px;" alt=" ">
-                                <section class="view-item-content">
-                                    <h3>جدیدترین مدل های لاک و ناخن 2020</h3>
+                                <section class="most-visited-item-content">
+                                    <a href="">
+                                        <h3>جدیدترین مدل های لاک و ناخن 2020</h3>
+                                    </a>
                                     <ul class="date-comment">
                                         <li>
                                             <span class="far fa-clock clock"></span>
@@ -503,13 +472,16 @@
                                             <span>34 دیدگاه</span>
                                         </li>
                                     </ul>
-                                    <P>امروزه مدل ناخن برای خانم ها بسیار مهم است و هر کسی به دنبال داشتن زیباترینهاست.</P>
+                                    <P>امروزه مدل ناخن برای خانم ها بسیار مهم است و هر کسی به دنبال داشتن زیباترینهاست.
+                                    </P>
                                 </section>
                             </section>
-                            <section class="view-item">
+                            <section class="most-visited-item">
                                 <img src="./images/img2.png" style="width: 150px;" alt=" ">
-                                <section class="view-item-content">
-                                    <h3>جدیدترین مدل های لاک و ناخن 2020</h3>
+                                <section class="most-visited-item-content">
+                                    <a href="">
+                                        <h3>جدیدترین مدل های لاک و ناخن 2020</h3>
+                                    </a>
                                     <ul class="date-comment">
                                         <li>
                                             <span class="far fa-clock clock"></span>
@@ -520,7 +492,92 @@
                                             <span>34 دیدگاه</span>
                                         </li>
                                     </ul>
-                                    <P>امروزه مدل ناخن برای خانم ها بسیار مهم است و هر کسی به دنبال داشتن زیباترینهاست.</P>
+                                    <P>امروزه مدل ناخن برای خانم ها بسیار مهم است و هر کسی به دنبال داشتن زیباترینهاست.
+                                    </P>
+                                </section>
+                            </section>
+                        </div>
+                        <div class="swiper-slide">
+                            <section class="most-visited-item">
+                                <img src="./images/img2.png" style="width: 150px;" alt=" ">
+                                <section class="most-visited-item-content">
+                                    <a href="">
+                                        <h3>جدیدترین مدل های لاک و ناخن 2020</h3>
+                                    </a>
+                                    <ul class="date-comment">
+                                        <li>
+                                            <span class="far fa-clock clock"></span>
+                                            <span>شنبه 6 اردیبهشت</span>
+                                        </li>
+                                        <li>
+                                            <span class="far fa-comment-alt comment"></span>
+                                            <span>34 دیدگاه</span>
+                                        </li>
+                                    </ul>
+                                    <P>امروزه مدل ناخن برای خانم ها بسیار مهم است و هر کسی به دنبال داشتن زیباترینهاست.
+                                    </P>
+                                </section>
+                            </section>
+                            <section class="most-visited-item">
+                                <img src="./images/img2.png" style="width: 150px;" alt=" ">
+                                <section class="most-visited-item-content">
+                                    <a href="">
+                                        <h3>جدیدترین مدل های لاک و ناخن 2020</h3>
+                                    </a>
+                                    <ul class="date-comment">
+                                        <li>
+                                            <span class="far fa-clock clock"></span>
+                                            <span>شنبه 6 اردیبهشت</span>
+                                        </li>
+                                        <li>
+                                            <span class="far fa-comment-alt comment"></span>
+                                            <span>34 دیدگاه</span>
+                                        </li>
+                                    </ul>
+                                    <P>امروزه مدل ناخن برای خانم ها بسیار مهم است و هر کسی به دنبال داشتن زیباترینهاست.
+                                    </P>
+                                </section>
+                            </section>
+                        </div>
+                        <div class="swiper-slide">
+                            <section class="most-visited-item">
+                                <img src="./images/img2.png" style="width: 150px;" alt=" ">
+                                <section class="most-visited-item-content">
+                                    <a href="">
+                                        <h3>جدیدترین مدل های لاک و ناخن 2020</h3>
+                                    </a>
+                                    <ul class="date-comment">
+                                        <li>
+                                            <span class="far fa-clock clock"></span>
+                                            <span>شنبه 6 اردیبهشت</span>
+                                        </li>
+                                        <li>
+                                            <span class="far fa-comment-alt comment"></span>
+                                            <span>34 دیدگاه</span>
+                                        </li>
+                                    </ul>
+                                    <P>امروزه مدل ناخن برای خانم ها بسیار مهم است و هر کسی به دنبال داشتن زیباترینهاست.
+                                    </P>
+                                </section>
+                            </section>
+                            <section class="most-visited-item">
+                                <img src="./images/img2.png" style="width: 150px;" alt=" ">
+                                <section class="most-visited-item-content">
+                                    <a href="">
+                                        <h3>جدیدترین مدل های لاک و ناخن 2020</h3>
+                                    </a>
+                                    <ul class="date-comment">
+                                        <li>
+                                            <span class="far fa-clock clock"></span>
+                                            <span>شنبه 6 اردیبهشت</span>
+                                        </li>
+                                        <li>
+                                            <span class="far fa-comment-alt comment"></span>
+                                            <span>34 دیدگاه</span>
+                                        </li>
+                                    </ul>
+                                    <P>امروزه مدل ناخن برای خانم ها بسیار مهم است و هر کسی به دنبال داشتن زیباترینهاست.
+                                    </P>
                                 </section>
                             </section>
                         </div>
@@ -530,25 +587,27 @@
             </section>
         </section>
     </section>
-    <!-- View section -->
+    <!-- Monst Visited section -->
 
-    <!-- News section -->
-    <section class="view">
+    <!-- Last News section -->
+    <section class="last-news">
         <section class="container">
             <section class="slider-blue-title">
                 <img style="width: 25px;" src="./images/recent.png" alt="">
                 <h2>آخرین اخبار</h2>
                 <div class="swiper-pagination"></div>
             </section>
-            <section class="view-content">
+            <section class="last-news-content">
                 <!-- Swiper -->
                 <div class="swiper Swiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <section class="view-item">
+                            <section class="last-news-item">
                                 <img src="./images/img2.png" style="width: 150px;" alt=" ">
-                                <section class="view-item-content">
-                                    <h3>جدیدترین مدل های لاک و ناخن 2020</h3>
+                                <section class="last-news-item-content">
+                                    <a href="">
+                                        <h3>جدیدترین مدل های لاک و ناخن 2020</h3>
+                                    </a>
                                     <ul class="date-comment">
                                         <li>
                                             <span class="far fa-clock clock"></span>
@@ -559,13 +618,16 @@
                                             <span>34 دیدگاه</span>
                                         </li>
                                     </ul>
-                                    <P>امروزه مدل ناخن برای خانم ها بسیار مهم است و هر کسی به دنبال داشتن زیباترینهاست.</P>
+                                    <P>امروزه مدل ناخن برای خانم ها بسیار مهم است و هر کسی به دنبال داشتن زیباترینهاست.
+                                    </P>
                                 </section>
                             </section>
-                            <section class="view-item">
+                            <section class="last-news-item">
                                 <img src="./images/img2.png" style="width: 150px;" alt=" ">
-                                <section class="view-item-content">
-                                    <h3>جدیدترین مدل های لاک و ناخن 2020</h3>
+                                <section class="last-news-item-content">
+                                    <a href="">
+                                        <h3>جدیدترین مدل های لاک و ناخن 2020</h3>
+                                    </a>
                                     <ul class="date-comment">
                                         <li>
                                             <span class="far fa-clock clock"></span>
@@ -576,51 +638,18 @@
                                             <span>34 دیدگاه</span>
                                         </li>
                                     </ul>
-                                    <P>امروزه مدل ناخن برای خانم ها بسیار مهم است و هر کسی به دنبال داشتن زیباترینهاست.</P>
-                                </section>
-                            </section>
-                        </div>
-                        <div class="swiper-slide">
-                            <section class="view-item">
-                                <img src="./images/img2.png" style="width: 150px;" alt=" ">
-                                <section class="view-item-content">
-                                    <h3>جدیدترین مدل های لاک و ناخن 2020</h3>
-                                    <ul class="date-comment">
-                                        <li>
-                                            <span class="far fa-clock clock"></span>
-                                            <span>شنبه 6 اردیبهشت</span>
-                                        </li>
-                                        <li>
-                                            <span class="far fa-comment-alt comment"></span>
-                                            <span>34 دیدگاه</span>
-                                        </li>
-                                    </ul>
-                                    <P>امروزه مدل ناخن برای خانم ها بسیار مهم است و هر کسی به دنبال داشتن زیباترینهاست.</P>
-                                </section>
-                            </section>
-                            <section class="view-item">
-                                <img src="./images/img2.png" style="width: 150px;" alt=" ">
-                                <section class="view-item-content">
-                                    <h3>جدیدترین مدل های لاک و ناخن 2020</h3>
-                                    <ul class="date-comment">
-                                        <li>
-                                            <span class="far fa-clock clock"></span>
-                                            <span>شنبه 6 اردیبهشت</span>
-                                        </li>
-                                        <li>
-                                            <span class="far fa-comment-alt comment"></span>
-                                            <span>34 دیدگاه</span>
-                                        </li>
-                                    </ul>
-                                    <P>امروزه مدل ناخن برای خانم ها بسیار مهم است و هر کسی به دنبال داشتن زیباترینهاست.</P>
+                                    <P>امروزه مدل ناخن برای خانم ها بسیار مهم است و هر کسی به دنبال داشتن زیباترینهاست.
+                                    </P>
                                 </section>
                             </section>
                         </div>
                         <div class="swiper-slide">
-                            <section class="view-item">
+                            <section class="last-news-item">
                                 <img src="./images/img2.png" style="width: 150px;" alt=" ">
-                                <section class="view-item-content">
-                                    <h3>جدیدترین مدل های لاک و ناخن 2020</h3>
+                                <section class="last-news-item-content">
+                                    <a href="">
+                                        <h3>جدیدترین مدل های لاک و ناخن 2020</h3>
+                                    </a>
                                     <ul class="date-comment">
                                         <li>
                                             <span class="far fa-clock clock"></span>
@@ -631,13 +660,16 @@
                                             <span>34 دیدگاه</span>
                                         </li>
                                     </ul>
-                                    <P>امروزه مدل ناخن برای خانم ها بسیار مهم است و هر کسی به دنبال داشتن زیباترینهاست.</P>
+                                    <P>امروزه مدل ناخن برای خانم ها بسیار مهم است و هر کسی به دنبال داشتن زیباترینهاست.
+                                    </P>
                                 </section>
                             </section>
-                            <section class="view-item">
+                            <section class="last-news-item">
                                 <img src="./images/img2.png" style="width: 150px;" alt=" ">
-                                <section class="view-item-content">
-                                    <h3>جدیدترین مدل های لاک و ناخن 2020</h3>
+                                <section class="last-news-item-content">
+                                    <a href="">
+                                        <h3>جدیدترین مدل های لاک و ناخن 2020</h3>
+                                    </a>
                                     <ul class="date-comment">
                                         <li>
                                             <span class="far fa-clock clock"></span>
@@ -648,51 +680,18 @@
                                             <span>34 دیدگاه</span>
                                         </li>
                                     </ul>
-                                    <P>امروزه مدل ناخن برای خانم ها بسیار مهم است و هر کسی به دنبال داشتن زیباترینهاست.</P>
-                                </section>
-                            </section>
-                        </div>
-                        <div class="swiper-slide">
-                            <section class="view-item">
-                                <img src="./images/img2.png" style="width: 150px;" alt=" ">
-                                <section class="view-item-content">
-                                    <h3>جدیدترین مدل های لاک و ناخن 2020</h3>
-                                    <ul class="date-comment">
-                                        <li>
-                                            <span class="far fa-clock clock"></span>
-                                            <span>شنبه 6 اردیبهشت</span>
-                                        </li>
-                                        <li>
-                                            <span class="far fa-comment-alt comment"></span>
-                                            <span>34 دیدگاه</span>
-                                        </li>
-                                    </ul>
-                                    <P>امروزه مدل ناخن برای خانم ها بسیار مهم است و هر کسی به دنبال داشتن زیباترینهاست.</P>
-                                </section>
-                            </section>
-                            <section class="view-item">
-                                <img src="./images/img2.png" style="width: 150px;" alt=" ">
-                                <section class="view-item-content">
-                                    <h3>جدیدترین مدل های لاک و ناخن 2020</h3>
-                                    <ul class="date-comment">
-                                        <li>
-                                            <span class="far fa-clock clock"></span>
-                                            <span>شنبه 6 اردیبهشت</span>
-                                        </li>
-                                        <li>
-                                            <span class="far fa-comment-alt comment"></span>
-                                            <span>34 دیدگاه</span>
-                                        </li>
-                                    </ul>
-                                    <P>امروزه مدل ناخن برای خانم ها بسیار مهم است و هر کسی به دنبال داشتن زیباترینهاست.</P>
+                                    <P>امروزه مدل ناخن برای خانم ها بسیار مهم است و هر کسی به دنبال داشتن زیباترینهاست.
+                                    </P>
                                 </section>
                             </section>
                         </div>
                         <div class="swiper-slide">
-                            <section class="view-item">
+                            <section class="last-news-item">
                                 <img src="./images/img2.png" style="width: 150px;" alt=" ">
-                                <section class="view-item-content">
-                                    <h3>جدیدترین مدل های لاک و ناخن 2020</h3>
+                                <section class="last-news-item-content">
+                                    <a href="">
+                                        <h3>جدیدترین مدل های لاک و ناخن 2020</h3>
+                                    </a>
                                     <ul class="date-comment">
                                         <li>
                                             <span class="far fa-clock clock"></span>
@@ -703,13 +702,16 @@
                                             <span>34 دیدگاه</span>
                                         </li>
                                     </ul>
-                                    <P>امروزه مدل ناخن برای خانم ها بسیار مهم است و هر کسی به دنبال داشتن زیباترینهاست.</P>
+                                    <P>امروزه مدل ناخن برای خانم ها بسیار مهم است و هر کسی به دنبال داشتن زیباترینهاست.
+                                    </P>
                                 </section>
                             </section>
-                            <section class="view-item">
+                            <section class="last-news-item">
                                 <img src="./images/img2.png" style="width: 150px;" alt=" ">
-                                <section class="view-item-content">
-                                    <h3>جدیدترین مدل های لاک و ناخن 2020</h3>
+                                <section class="last-news-item-content">
+                                    <a href="">
+                                        <h3>جدیدترین مدل های لاک و ناخن 2020</h3>
+                                    </a>
                                     <ul class="date-comment">
                                         <li>
                                             <span class="far fa-clock clock"></span>
@@ -720,7 +722,92 @@
                                             <span>34 دیدگاه</span>
                                         </li>
                                     </ul>
-                                    <P>امروزه مدل ناخن برای خانم ها بسیار مهم است و هر کسی به دنبال داشتن زیباترینهاست.</P>
+                                    <P>امروزه مدل ناخن برای خانم ها بسیار مهم است و هر کسی به دنبال داشتن زیباترینهاست.
+                                    </P>
+                                </section>
+                            </section>
+                        </div>
+                        <div class="swiper-slide">
+                            <section class="last-news-item">
+                                <img src="./images/img2.png" style="width: 150px;" alt=" ">
+                                <section class="last-news-item-content">
+                                    <a href="">
+                                        <h3>جدیدترین مدل های لاک و ناخن 2020</h3>
+                                    </a>
+                                    <ul class="date-comment">
+                                        <li>
+                                            <span class="far fa-clock clock"></span>
+                                            <span>شنبه 6 اردیبهشت</span>
+                                        </li>
+                                        <li>
+                                            <span class="far fa-comment-alt comment"></span>
+                                            <span>34 دیدگاه</span>
+                                        </li>
+                                    </ul>
+                                    <P>امروزه مدل ناخن برای خانم ها بسیار مهم است و هر کسی به دنبال داشتن زیباترینهاست.
+                                    </P>
+                                </section>
+                            </section>
+                            <section class="last-news-item">
+                                <img src="./images/img2.png" style="width: 150px;" alt=" ">
+                                <section class="last-news-item-content">
+                                    <a href="">
+                                        <h3>جدیدترین مدل های لاک و ناخن 2020</h3>
+                                    </a>
+                                    <ul class="date-comment">
+                                        <li>
+                                            <span class="far fa-clock clock"></span>
+                                            <span>شنبه 6 اردیبهشت</span>
+                                        </li>
+                                        <li>
+                                            <span class="far fa-comment-alt comment"></span>
+                                            <span>34 دیدگاه</span>
+                                        </li>
+                                    </ul>
+                                    <P>امروزه مدل ناخن برای خانم ها بسیار مهم است و هر کسی به دنبال داشتن زیباترینهاست.
+                                    </P>
+                                </section>
+                            </section>
+                        </div>
+                        <div class="swiper-slide">
+                            <section class="last-news-item">
+                                <img src="./images/img2.png" style="width: 150px;" alt=" ">
+                                <section class="last-news-item-content">
+                                    <a href="">
+                                        <h3>جدیدترین مدل های لاک و ناخن 2020</h3>
+                                    </a>
+                                    <ul class="date-comment">
+                                        <li>
+                                            <span class="far fa-clock clock"></span>
+                                            <span>شنبه 6 اردیبهشت</span>
+                                        </li>
+                                        <li>
+                                            <span class="far fa-comment-alt comment"></span>
+                                            <span>34 دیدگاه</span>
+                                        </li>
+                                    </ul>
+                                    <P>امروزه مدل ناخن برای خانم ها بسیار مهم است و هر کسی به دنبال داشتن زیباترینهاست.
+                                    </P>
+                                </section>
+                            </section>
+                            <section class="last-news-item">
+                                <img src="./images/img2.png" style="width: 150px;" alt=" ">
+                                <section class="last-news-item-content">
+                                    <a href="">
+                                        <h3>جدیدترین مدل های لاک و ناخن 2020</h3>
+                                    </a>
+                                    <ul class="date-comment">
+                                        <li>
+                                            <span class="far fa-clock clock"></span>
+                                            <span>شنبه 6 اردیبهشت</span>
+                                        </li>
+                                        <li>
+                                            <span class="far fa-comment-alt comment"></span>
+                                            <span>34 دیدگاه</span>
+                                        </li>
+                                    </ul>
+                                    <P>امروزه مدل ناخن برای خانم ها بسیار مهم است و هر کسی به دنبال داشتن زیباترینهاست.
+                                    </P>
                                 </section>
                             </section>
                         </div>
@@ -730,7 +817,7 @@
             </section>
         </section>
     </section>
-    <!-- News section -->
+    <!-- Last News section -->
 
     <!-- Last video section -->
     <section class="last-video">
@@ -753,7 +840,9 @@
                                     </section>
                                 </section>
                                 <section class="slider-item-content">
-                                    <h5>آموزش هاشور به روش میکرو بلیدینگ</h5>
+                                    <a class="last-video-name" href="">
+                                        <h5>آموزش هاشور به روش میکرو بلیدینگ</h5>
+                                    </a>
                                     <a href=""><span class="fas fa-eye"></span>768 بازدید</a>
                                 </section>
                             </section>
@@ -767,7 +856,9 @@
                                     </section>
                                 </section>
                                 <section class="slider-item-content">
-                                    <h5>آموزش هاشور به روش میکرو بلیدینگ</h5>
+                                    <a class="last-video-name" href="">
+                                        <h5>آموزش هاشور به روش میکرو بلیدینگ</h5>
+                                    </a>
                                     <a href=""><span class="fas fa-eye"></span>768 بازدید</a>
                                 </section>
                             </section>
@@ -781,7 +872,9 @@
                                     </section>
                                 </section>
                                 <section class="slider-item-content">
-                                    <h5>آموزش هاشور به روش میکرو بلیدینگ</h5>
+                                    <a class="last-video-name" href="">
+                                        <h5>آموزش هاشور به روش میکرو بلیدینگ</h5>
+                                    </a>
                                     <a href=""><span class="fas fa-eye"></span>768 بازدید</a>
                                 </section>
                             </section>
@@ -795,7 +888,9 @@
                                     </section>
                                 </section>
                                 <section class="slider-item-content">
-                                    <h5>آموزش هاشور به روش میکرو بلیدینگ</h5>
+                                    <a class="last-video-name" href="">
+                                        <h5>آموزش هاشور به روش میکرو بلیدینگ</h5>
+                                    </a>
                                     <a href=""><span class="fas fa-eye"></span>768 بازدید</a>
                                 </section>
                             </section>
@@ -809,7 +904,9 @@
                                     </section>
                                 </section>
                                 <section class="slider-item-content">
-                                    <h5>آموزش هاشور به روش میکرو بلیدینگ</h5>
+                                    <a class="last-video-name" href="">
+                                        <h5>آموزش هاشور به روش میکرو بلیدینگ</h5>
+                                    </a>
                                     <a href=""><span class="fas fa-eye"></span>768 بازدید</a>
                                 </section>
                             </section>
@@ -849,8 +946,11 @@
                             <h6>مجله اینترنتی زیبایی و سلامتی</h6>
                         </section>
                     </section>
-                    <p>مجله زیبایی و سلامت "زیبا بمان" با هدف تولید محتوا در حوزه جراحی های زیبایی و آرایشی و سلامت و بالا بردن سطح اطلاعات و دانش مخاطبان در این حوزه آغاز به کار نموده است . زیبا شوید ، زیبا بمانید و زیبا بیندیشید. افزایش زیبایی به اعتماد
-                        به نفس شما نیز میفزاید. محتوای درج شده در این سامانه، متناسب با قوانین جمهوری اسلامی ایران می باشد.</p>
+                    <p>مجله زیبایی و سلامت "زیبا بمان" با هدف تولید محتوا در حوزه جراحی های زیبایی و آرایشی و سلامت و
+                        بالا بردن سطح اطلاعات و دانش مخاطبان در این حوزه آغاز به کار نموده است . زیبا شوید ، زیبا بمانید
+                        و زیبا بیندیشید. افزایش زیبایی به اعتماد
+                        به نفس شما نیز میفزاید. محتوای درج شده در این سامانه، متناسب با قوانین جمهوری اسلامی ایران می
+                        باشد.</p>
                 </section>
                 <section class="center">
                     <section class="center-content">
@@ -891,15 +991,11 @@
             </section>
             <section class="copyright">
                 <ul>
-                    <li>صفحه اصلی</li>
-                    <li>/</li>
-                    <li>جراحی های زیبایی</li>
-                    <li>/</li>
-                    <li> سلامت</li>
-                    <li>/</li>
-                    <li>ماسک های زیبایی</li>
-                    <li>/</li>
-                    <li>مد و آرایشی</li>
+                    <li><a href="">صفحه اصلی</a></li>
+                    <li><a href="">جراحی های زیبایی</a></li>
+                    <li><a href="">سلامت</a></li>
+                    <li><a href="">ماسک های زیبایی</a></li>
+                    <li><a href="">مد و آرایشی</a></li>
                 </ul>
                 <p>تمامی حقوق برای وب سایت زیبا بمان محفوظ است</p>
             </section>
@@ -911,7 +1007,9 @@
 <!-- Swiper JS -->
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js "></script>
 <!-- Font Awesome -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.4.2/js/all.min.js " integrity="sha512-IqeQ6271Vq75Nf4OOwCEYi4tIAyT2J7vtKrmOU9WCezb+YkxqAu+igEi2CuLEnA7cqtvFDHsQhXbpZXx/evxrw==" crossorigin=" anonymous " referrerpolicy="no-referrer "></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.4.2/js/all.min.js "
+    integrity="sha512-IqeQ6271Vq75Nf4OOwCEYi4tIAyT2J7vtKrmOU9WCezb+YkxqAu+igEi2CuLEnA7cqtvFDHsQhXbpZXx/evxrw=="
+    crossorigin=" anonymous " referrerpolicy="no-referrer "></script>
 <!-- Custom JS -->
 <script src="./js/script.js "></script>
 
